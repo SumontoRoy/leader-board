@@ -178,13 +178,19 @@ padding-left: 16px;
 
     /* mobile device */
     @media (max-width: 480px) {
-        .header-part{
-            display: none;
-        }
         .container{
             margin: 0;
             padding: 0;
             width: 100%;
+        }
+        .header-content{
+            padding: 10px 0px;
+        }
+        .menu-side a{
+            padding-right: 10px;
+        }
+        .menu-side img{
+            width: 40px;
         }
         .players{
             display: grid;
